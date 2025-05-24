@@ -91,3 +91,8 @@ AUTOTHROTTLE_MAX_DELAY = 60
 
 # Set settings whose default value is deprecated to a future-proof value
 FEED_EXPORT_ENCODING = "utf-8"
+DOWNLOADER_MIDDLEWARES = {
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
+}
+ROTATING_PROXY_LIST_PATH = 'listofproxies.txt'

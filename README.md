@@ -16,4 +16,7 @@ L’application devra ensuite être capable de recommander les meilleures destin
 | :---------------: |:---------------:| :--------:|:---------------:|:---------------:|
 |1	|Construction et alimentation d'une infrastructure de gestion de données|Build & Manage a Data Infrastructure	|Présenter 1 projet  - Fullstack Data Science - Data Collection & Management Project (Projet Kayak)	|10 minutes réparties comme suit : - 5 minutes de présentation - 5 minutes de questions-réponses |
 
+## Execution du projet.
 
+En premier lieu, la liste des villes ou lieux cibles pour un projet de vacances est créée.
+Puis pour chacun d'eux nous récupérons leur coordonnées GPS grâce à l'API web service de nomitim
