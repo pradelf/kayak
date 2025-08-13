@@ -1,5 +1,5 @@
 # kayak
-Bloc1 : Construction et alimentation d'une infrastructure de gestion de données (Build &amp; Manage a Data Infrastructure)
+Bloc1 : Construction et alimentation d'une infrastructure de gestion de données (Build &amp; Manage a Data Infrastructure).
 
 ![alt text](Media/Kayak-FPr.png)
 ## Sujet du projet d'évaluation : 
