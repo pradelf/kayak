@@ -21,4 +21,5 @@ L’application devra ensuite être capable de recommander les meilleures destin
 ## Execution du projet.
 
 En premier lieu, la liste des villes ou lieux cibles pour un projet de vacances est créée.
-Puis pour chacun d'eux nous récupérons leur coordonnées GPS grâce à l'API web service de nomitim
+Puis pour chacun d'eux;  nous récupérons leur coordonnées GPS grâce à l'API web service de nomitim.
+

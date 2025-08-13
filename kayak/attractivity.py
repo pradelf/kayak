@@ -9,7 +9,7 @@ class WMOrating(Attractivity):
         self.rating = rating
 
     def __str__(self):
-        return f"WMOrating(rating={self.rating})"
+        return f"WMO rating( rating={self.rating} )"
 
     def __repr__(self):
         return self.__str__()
