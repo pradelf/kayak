@@ -38,15 +38,17 @@ lieux= ["Mont Saint Michel",
 "Bayonne",
 "La Rochelle"]
 
+mapping={}
 def liste_villes()->list:
     liste_retour=[]
     for lieu in lieux:
-        liste_retour.append(f"https://www.booking.com/searchresults.fr.html?ss={lieu.replace(' ','+')}")
+        url=f"https://www.booking.com/searchresults.fr.html?ss={lieu.replace(' ','+')}"
+        mapping[url]=lieu
+        liste_retour.append(url)
     return liste_retour
     
 
 class BookingSpider(scrapy.Spider):
-
     name = "booking"
     allowed_domains = ["booking.com"]
     start_urls = liste_villes()
@@ -56,7 +58,8 @@ class BookingSpider(scrapy.Spider):
         yield hotel
 
     def parse(self, response):
-        ville=response.xpath('/html/body/div[4]/div/div/div/div[1]/div/form/input[1]/@value').get()
+        #ville=response.xpath('/html/body/div[4]/div/div/div/div[1]/div/form/input[1]/@value').get()
+        ville=mapping[response.request.url]
         hotels = response.xpath('//div[contains(@data-testid,"property-card")]')
         
         logging.info('No next page. Terminating crawling process.')
