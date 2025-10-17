@@ -23,3 +23,27 @@ L’application devra ensuite être capable de recommander les meilleures destin
 En premier lieu, la liste des villes ou lieux cibles pour un projet de vacances est créée.
 Puis pour chacun d'eux;  nous récupérons leur coordonnées GPS grâce à l'API web service de nomitim.
 
+## Process you have in mind for the project : Kayak
+For a project like Kayak, it might look something like this:
+
+ [ ]  Use a geolocalisation API to get latitude and longitude for my list of cities (such as nominatim)
+ [ ] Use a weather API to get weather information on my cities, thanks to the coordinates (such as open weather api)
+ [ ] Use my weather information to select the 5 most attractive cities for a holiday
+ [ ]Use Scrapy to scrape booking.com information on 25 information for each city
+ [ ] Upload all my raw data to an S3 bucket using boto3
+Retrieve the data locally using boto3
+ [ ] Clean and structure the data into a tabular format with python and pandas
+ [ ] Upload my tabular data to an RDS with sqlalchemy
+Run a few SQL requests on my data using sqlalchemy
+
+## concrete goals
+
+* What tools do you have to use?
+
+* What processes do you need to put into place?
+
+* What questions do you need to answer?
+
+* What problems do you need to solve?
+
+* What specific files do you need hand in for the certification?
