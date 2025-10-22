@@ -1,596 +1,596 @@
-,ville,id,latitude,longitude,France,weather,nice
-0,Mont Saint Michel,211285890,48.6359541,-1.51146,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             3                      24.0   
-1  2025-08-18             3                      27.1   
-2  2025-08-19            55                      27.8   
-3  2025-08-20            80                      23.2   
-4  2025-08-21             3                      20.4   
-5  2025-08-22             3                      21.1   
-6  2025-08-23             3                      21.8   
+,nom,id,france,latitude,longitude,weather,nice
+0,Mont Saint Michel,211285890,True,48.6359541,-1.51146,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            63                      13.7   
+1  2025-10-23            63                       9.6   
+2  2025-10-24            63                       8.2   
+3  2025-10-25            61                       9.3   
+4  2025-10-26            55                       7.7   
+5  2025-10-27            80                      11.0   
+6  2025-10-28             3                      12.6   
 
-   apparent_temperature_min  precipitation_sum  
-0                      16.7                0.0  
-1                      16.0                0.0  
-2                      22.1                2.0  
-3                      18.7                8.8  
-4                      16.0                0.0  
-5                      14.0                0.0  
-6                      10.5                0.0  ",21.428571428571427
-1,St Malo,905534,48.649518,-2.0260409,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             3                      23.7   
-1  2025-08-18             3                      25.2   
-2  2025-08-19            55                      28.2   
-3  2025-08-20            53                      24.3   
-4  2025-08-21             3                      19.2   
-5  2025-08-22             3                      20.9   
-6  2025-08-23             3                      22.0   
+   apparent_temperature_min  precipitation_sum                poi  
+0                       9.6                4.8  Mont Saint Michel  
+1                       1.9               11.1  Mont Saint Michel  
+2                       2.4                5.5  Mont Saint Michel  
+3                       3.7                7.1  Mont Saint Michel  
+4                       4.6                4.9  Mont Saint Michel  
+5                       5.1                4.5  Mont Saint Michel  
+6                       8.2                0.6  Mont Saint Michel  ",55.42857142857143
+1,St Malo,905534,True,48.649518,-2.0260409,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            65                      13.8   
+1  2025-10-23            63                       9.4   
+2  2025-10-24            53                       8.4   
+3  2025-10-25            53                       8.6   
+4  2025-10-26            55                       7.0   
+5  2025-10-27            80                      11.6   
+6  2025-10-28             3                      13.1   
 
-   apparent_temperature_min  precipitation_sum  
-0                      18.2                0.0  
-1                      17.2                0.0  
-2                      21.9                1.5  
-3                      18.2                5.6  
-4                      15.7                0.0  
-5                      14.2                0.0  
-6                      12.2                0.0  ",17.571428571428573
-2,Bayeux,145776,49.2764624,-0.7024738,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             1                      22.5   
-1  2025-08-18             3                      23.6   
-2  2025-08-19             3                      22.5   
-3  2025-08-20            61                      20.3   
-4  2025-08-21             3                      18.6   
-5  2025-08-22             3                      18.8   
-6  2025-08-23            45                      21.4   
+   apparent_temperature_min  precipitation_sum      poi  
+0                       9.8               14.5  St Malo  
+1                       2.0               11.4  St Malo  
+2                       3.2                1.5  St Malo  
+3                       4.5                2.6  St Malo  
+4                       4.7                6.2  St Malo  
+5                       5.3                3.3  St Malo  
+6                       7.6                0.0  St Malo  ",53.142857142857146
+2,Bayeux,145776,True,49.2764624,-0.7024738,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      14.5   
+1  2025-10-23            80                      13.2   
+2  2025-10-24             3                       7.1   
+3  2025-10-25            80                       9.7   
+4  2025-10-26            80                       6.5   
+5  2025-10-27            61                      11.9   
+6  2025-10-28             3                      12.5   
 
-   apparent_temperature_min  precipitation_sum  
-0                      15.2                0.0  
-1                      15.3                0.0  
-2                      18.3                0.3  
-3                      15.8                3.5  
-4                      15.4                0.0  
-5                      12.8                0.0  
-6                       9.3                0.0  ",17.0
-3,Le Havre,104492,49.4938975,0.1079732,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             1                      24.8   
-1  2025-08-18             3                      26.7   
-2  2025-08-19             3                      25.8   
-3  2025-08-20            80                      21.3   
-4  2025-08-21             3                      19.4   
-5  2025-08-22             3                      17.3   
-6  2025-08-23             3                      20.8   
+   apparent_temperature_min  precipitation_sum     poi  
+0                      10.2                9.7  Bayeux  
+1                       3.9                7.2  Bayeux  
+2                       4.3                0.0  Bayeux  
+3                       3.9                4.3  Bayeux  
+4                       3.2                0.9  Bayeux  
+5                       4.9                4.2  Bayeux  
+6                       9.6                0.9  Bayeux  ",55.285714285714285
+3,Le Havre,104492,True,49.4938975,0.1079732,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            63                      14.2   
+1  2025-10-23            80                      14.2   
+2  2025-10-24            80                       7.1   
+3  2025-10-25            95                       9.5   
+4  2025-10-26            80                       7.6   
+5  2025-10-27            61                      11.2   
+6  2025-10-28            80                      12.6   
 
-   apparent_temperature_min  precipitation_sum  
-0                      13.1                0.0  
-1                      15.7                0.0  
-2                      18.5                0.3  
-3                      16.8                7.1  
-4                      16.3                0.0  
-5                      15.2                0.0  
-6                      17.6                0.0  ",13.714285714285714
-4,Rouen,75628,49.4404591,1.0939658,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             1                      24.3   
-1  2025-08-18             2                      26.4   
-2  2025-08-19            80                      27.8   
-3  2025-08-20            80                      22.1   
-4  2025-08-21             2                      22.7   
-5  2025-08-22             3                      19.7   
-6  2025-08-23             3                      21.4   
+   apparent_temperature_min  precipitation_sum       poi  
+0                      11.3               14.1  Le Havre  
+1                       3.6               17.5  Le Havre  
+2                       5.4                0.0  Le Havre  
+3                       6.0               15.3  Le Havre  
+4                       5.8                8.4  Le Havre  
+5                       7.5                7.8  Le Havre  
+6                      10.1                6.0  Le Havre  ",77.0
+4,Rouen,75628,True,49.4404591,1.0939658,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            81                      14.9   
+1  2025-10-23            80                      15.0   
+2  2025-10-24            80                       8.5   
+3  2025-10-25            80                       9.3   
+4  2025-10-26            61                       7.3   
+5  2025-10-27            80                      11.6   
+6  2025-10-28            80                      12.3   
 
-   apparent_temperature_min  precipitation_sum  
-0                      13.5                0.0  
-1                      15.7                0.0  
-2                      16.5                0.7  
-3                      15.4               14.4  
-4                      14.6                0.0  
-5                       9.6                0.0  
-6                       8.2                0.0  ",24.428571428571427
-5,Paris,7444,48.8588897,2.320041,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             1                      25.3   
-1  2025-08-18             1                      27.4   
-2  2025-08-19            95                      29.2   
-3  2025-08-20            80                      22.5   
-4  2025-08-21             3                      24.5   
-5  2025-08-22             3                      20.3   
-6  2025-08-23             3                      23.0   
+   apparent_temperature_min  precipitation_sum    poi  
+0                      10.5                7.2  Rouen  
+1                       4.7               16.6  Rouen  
+2                       4.4                6.9  Rouen  
+3                       5.0                6.6  Rouen  
+4                       4.0                3.0  Rouen  
+5                       4.5                4.5  Rouen  
+6                      10.6                1.8  Rouen  ",77.42857142857143
+5,Paris,71525,True,48.8534951,2.3483915,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      16.4   
+1  2025-10-23            80                      16.6   
+2  2025-10-24            80                       9.0   
+3  2025-10-25            61                      10.2   
+4  2025-10-26            80                       7.6   
+5  2025-10-27            61                      11.8   
+6  2025-10-28             3                      13.3   
 
-   apparent_temperature_min  precipitation_sum  
-0                      15.1                0.0  
-1                      16.4                0.0  
-2                      17.7                4.9  
-3                      18.7                2.3  
-4                      15.9                0.0  
-5                      12.0                0.0  
-6                      12.2                0.0  ",26.571428571428573
-6,Amiens,114347,49.8941708,2.2956951,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      24.0   
-1  2025-08-18             3                      27.2   
-2  2025-08-19             3                      27.6   
-3  2025-08-20             3                      24.5   
-4  2025-08-21             1                      22.4   
-5  2025-08-22             3                      18.7   
-6  2025-08-23             1                      24.6   
+   apparent_temperature_min  precipitation_sum    poi  
+0                      12.6                2.0  Paris  
+1                       6.2                4.4  Paris  
+2                       4.8                0.1  Paris  
+3                       5.4                1.0  Paris  
+4                       3.4                4.5  Paris  
+5                       4.2                4.8  Paris  
+6                       9.9                1.5  Paris  ",63.57142857142857
+6,Amiens,114347,True,49.8941708,2.2956951,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            61                      15.8   
+1  2025-10-23            63                      14.4   
+2  2025-10-24            61                       7.2   
+3  2025-10-25            51                       8.8   
+4  2025-10-26            53                       6.1   
+5  2025-10-27            53                       9.4   
+6  2025-10-28            51                      11.5   
 
-   apparent_temperature_min  precipitation_sum  
-0                      12.9                0.0  
-1                      15.9                0.0  
-2                      16.9                0.0  
-3                      14.8                0.0  
-4                      14.0                0.0  
-5                      10.9                0.0  
-6                      11.1                0.0  ",2.0
-7,Lille,58404,50.6365654,3.0635282,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      24.0   
-1  2025-08-18             3                      25.8   
-2  2025-08-19             2                      27.2   
-3  2025-08-20             1                      23.1   
-4  2025-08-21             2                      20.5   
-5  2025-08-22             3                      17.3   
-6  2025-08-23             2                      23.4   
+   apparent_temperature_min  precipitation_sum     poi  
+0                       9.0                3.2  Amiens  
+1                       3.0               19.0  Amiens  
+2                       2.8                8.3  Amiens  
+3                       3.8                1.5  Amiens  
+4                       1.5                2.6  Amiens  
+5                       3.3                7.5  Amiens  
+6                       5.4                0.6  Amiens  ",56.142857142857146
+7,Lille,58404,True,50.6365654,3.0635282,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            61                      14.7   
+1  2025-10-23            63                      14.1   
+2  2025-10-24            61                       7.0   
+3  2025-10-25            61                       7.6   
+4  2025-10-26            71                       5.4   
+5  2025-10-27            63                       9.4   
+6  2025-10-28             3                      11.2   
 
-   apparent_temperature_min  precipitation_sum  
-0                      12.3                0.0  
-1                      17.1                0.0  
-2                      16.5                0.0  
-3                      13.7                0.0  
-4                      13.4                0.0  
-5                      11.9                0.0  
-6                      11.3                0.0  ",1.8571428571428572
-8,Strasbourg,71033,48.584614,7.7507127,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             1                      25.0   
-1  2025-08-18             3                      25.9   
-2  2025-08-19             3                      31.6   
-3  2025-08-20            80                      26.1   
-4  2025-08-21             3                      27.5   
-5  2025-08-22             3                      20.2   
-6  2025-08-23             3                      20.7   
+   apparent_temperature_min  precipitation_sum    poi  
+0                      10.1                2.5  Lille  
+1                       3.7               20.6  Lille  
+2                       2.9                7.9  Lille  
+3                       3.0                3.6  Lille  
+4                       0.5                5.7  Lille  
+5                       2.5               11.1  Lille  
+6                       4.7                0.0  Lille  ",54.714285714285715
+8,Strasbourg,71033,True,48.584614,7.7507127,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      16.6   
+1  2025-10-23            95                      15.6   
+2  2025-10-24            80                       8.1   
+3  2025-10-25            80                       9.0   
+4  2025-10-26            80                       6.4   
+5  2025-10-27            80                       7.1   
+6  2025-10-28            80                       9.5   
 
-   apparent_temperature_min  precipitation_sum  
-0                      15.9                0.0  
-1                      14.2                0.0  
-2                      15.2                0.0  
-3                      21.1                5.1  
-4                      16.5                0.0  
-5                      10.4                0.0  
-6                       7.5                0.0  ",13.714285714285714
-9,Chateau du Haut Koenigsbourg,1299451538,48.2494107,7.3443202,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             1                      20.9   
-1  2025-08-18             1                      22.5   
-2  2025-08-19             3                      27.7   
-3  2025-08-20            80                      21.4   
-4  2025-08-21             3                      21.9   
-5  2025-08-22             2                      17.1   
-6  2025-08-23             3                      16.6   
+   apparent_temperature_min  precipitation_sum         poi  
+0                      12.8                7.6  Strasbourg  
+1                       7.9               14.2  Strasbourg  
+2                       3.6                1.2  Strasbourg  
+3                       3.6                2.7  Strasbourg  
+4                       3.7                6.3  Strasbourg  
+5                       1.8                5.4  Strasbourg  
+6                       7.1                9.0  Strasbourg  ",82.14285714285714
+9,Chateau du Haut Koenigsbourg,1299451538,True,48.2494107,7.3443202,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      12.7   
+1  2025-10-23            96                      11.4   
+2  2025-10-24            81                       3.7   
+3  2025-10-25            80                       2.9   
+4  2025-10-26            61                       2.2   
+5  2025-10-27            61                       2.8   
+6  2025-10-28            80                       5.5   
 
-   apparent_temperature_min  precipitation_sum  
-0                      12.4                0.0  
-1                      11.4                0.0  
-2                      12.2                0.0  
-3                      16.9                6.6  
-4                      12.3                0.0  
-5                       7.6                0.0  
-6                       6.5                0.0  ",13.285714285714286
-10,Colmar,61423,48.0777517,7.3579641,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             2                      25.9   
-1  2025-08-18             2                      27.4   
-2  2025-08-19             3                      32.6   
-3  2025-08-20            95                      25.8   
-4  2025-08-21             3                      25.3   
-5  2025-08-22             3                      20.8   
-6  2025-08-23             3                      20.7   
+   apparent_temperature_min  precipitation_sum                           poi  
+0                       8.6                8.6  Chateau du Haut Koenigsbourg  
+1                       1.6               18.4  Chateau du Haut Koenigsbourg  
+2                      -2.5                3.6  Chateau du Haut Koenigsbourg  
+3                       0.9                2.2  Chateau du Haut Koenigsbourg  
+4                      -1.0                6.0  Chateau du Haut Koenigsbourg  
+5                      -1.5                8.4  Chateau du Haut Koenigsbourg  
+6                       2.9               25.2  Chateau du Haut Koenigsbourg  ",77.0
+10,Colmar,61423,True,48.0777517,7.3579641,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      17.2   
+1  2025-10-23            95                      15.2   
+2  2025-10-24            80                       8.2   
+3  2025-10-25            80                       8.6   
+4  2025-10-26            61                       6.3   
+5  2025-10-27            61                       6.9   
+6  2025-10-28            80                      10.0   
 
-   apparent_temperature_min  precipitation_sum  
-0                      16.9                0.0  
-1                      14.8                0.0  
-2                      14.1                0.1  
-3                      20.9                6.0  
-4                      16.7                0.6  
-5                      11.4                0.0  
-6                      10.3                0.0  ",15.857142857142858
-11,Eguisheim,79442,48.0447968,7.3079618,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             2                      25.5   
-1  2025-08-18             2                      27.3   
-2  2025-08-19             3                      32.0   
-3  2025-08-20            80                      26.0   
-4  2025-08-21             3                      25.2   
-5  2025-08-22             3                      20.7   
-6  2025-08-23             3                      20.7   
+   apparent_temperature_min  precipitation_sum     poi  
+0                      12.3               11.1  Colmar  
+1                       7.4               11.9  Colmar  
+2                       3.3                0.8  Colmar  
+3                       4.3                2.5  Colmar  
+4                       2.0                2.7  Colmar  
+5                       1.5                3.3  Colmar  
+6                       5.6               11.4  Colmar  ",76.71428571428571
+11,Eguisheim,79442,True,48.0447968,7.3079618,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      17.9   
+1  2025-10-23            81                      16.0   
+2  2025-10-24            80                       7.8   
+3  2025-10-25            61                       8.0   
+4  2025-10-26            61                       6.2   
+5  2025-10-27            61                       6.9   
+6  2025-10-28            80                      10.0   
 
-   apparent_temperature_min  precipitation_sum  
-0                      15.9                0.0  
-1                      14.3                0.0  
-2                      14.2                0.0  
-3                      20.9                7.2  
-4                      16.7                0.9  
-5                      11.4                0.0  
-6                      10.3                0.0  ",13.714285714285714
-12,Besancon,103599,47.2380222,6.0243622,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             1                      29.1   
-1  2025-08-18             0                      30.1   
-2  2025-08-19             3                      31.5   
-3  2025-08-20            95                      24.5   
-4  2025-08-21            65                      24.9   
-5  2025-08-22             2                      22.6   
-6  2025-08-23             3                      21.6   
+   apparent_temperature_min  precipitation_sum        poi  
+0                      12.7               12.1  Eguisheim  
+1                       7.7               18.2  Eguisheim  
+2                       3.4                1.2  Eguisheim  
+3                       4.5                1.9  Eguisheim  
+4                       1.7                2.4  Eguisheim  
+5                       1.7                3.9  Eguisheim  
+6                       5.6               11.4  Eguisheim  ",72.0
+12,Besancon,103599,True,47.2380222,6.0243622,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            96                      16.9   
+1  2025-10-23            80                      15.1   
+2  2025-10-24            80                       7.5   
+3  2025-10-25            95                       7.7   
+4  2025-10-26            80                       4.9   
+5  2025-10-27            80                       4.2   
+6  2025-10-28            63                       8.8   
 
-   apparent_temperature_min  precipitation_sum  
-0                      19.1                0.0  
-1                      16.2                0.0  
-2                      17.3                0.0  
-3                      20.5               18.6  
-4                      18.1               48.6  
-5                      12.9                0.0  
-6                      10.9                0.0  ",24.142857142857142
-13,Dijon,74090,47.3215806,5.0414701,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             1                      28.9   
-1  2025-08-18             0                      30.0   
-2  2025-08-19            95                      31.8   
-3  2025-08-20            95                      24.1   
-4  2025-08-21            63                      24.0   
-5  2025-08-22             2                      20.8   
-6  2025-08-23             2                      20.4   
+   apparent_temperature_min  precipitation_sum       poi  
+0                      12.9               36.0  Besancon  
+1                       6.8               18.1  Besancon  
+2                       4.2                1.6  Besancon  
+3                       4.0               10.4  Besancon  
+4                       2.8                6.9  Besancon  
+5                       0.3                8.1  Besancon  
+6                       4.6               10.2  Besancon  ",82.0
+13,Dijon,74090,True,47.3215806,5.0414701,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      18.5   
+1  2025-10-23            95                      14.3   
+2  2025-10-24            61                       8.5   
+3  2025-10-25             3                       7.9   
+4  2025-10-26            80                       6.0   
+5  2025-10-27            61                       6.8   
+6  2025-10-28            61                       6.9   
 
-   apparent_temperature_min  precipitation_sum  
-0                      17.7                0.0  
-1                      14.9                0.0  
-2                      16.9                4.3  
-3                      20.7               27.5  
-4                      15.1               11.7  
-5                      10.7                0.0  
-6                       9.2                0.0  ",36.857142857142854
-14,Annecy,6791758,45.8992348,6.1288847,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             2                      31.4   
-1  2025-08-18             1                      31.2   
-2  2025-08-19            80                      27.1   
-3  2025-08-20            95                      22.2   
-4  2025-08-21            61                      19.5   
-5  2025-08-22             1                      23.9   
-6  2025-08-23             2                      25.0   
+   apparent_temperature_min  precipitation_sum    poi  
+0                      12.9               11.2  Dijon  
+1                       6.0               28.2  Dijon  
+2                       3.8                0.5  Dijon  
+3                       4.7                0.6  Dijon  
+4                       2.1                1.2  Dijon  
+5                       1.7                2.1  Dijon  
+6                       5.0                3.3  Dijon  ",63.0
+14,Annecy,6791758,True,45.8992348,6.1288847,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            81                      17.8   
+1  2025-10-23            80                      16.1   
+2  2025-10-24            80                       8.3   
+3  2025-10-25            80                       8.4   
+4  2025-10-26            80                       6.3   
+5  2025-10-27            61                       4.4   
+6  2025-10-28            61                      10.0   
 
-   apparent_temperature_min  precipitation_sum  
-0                      20.5                0.0  
-1                      17.1                0.0  
-2                      18.2                1.3  
-3                      19.6               26.3  
-4                      17.7               11.4  
-5                      14.6                0.0  
-6                      10.5                0.0  ",34.57142857142857
-15,Grenoble,80348,45.1875602,5.7357819,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             1                      31.0   
-1  2025-08-18             1                      32.7   
-2  2025-08-19            95                      29.2   
-3  2025-08-20            95                      23.3   
-4  2025-08-21            80                      21.1   
-5  2025-08-22             3                      22.8   
-6  2025-08-23             3                      23.0   
+   apparent_temperature_min  precipitation_sum     poi  
+0                      13.6               11.4  Annecy  
+1                       6.8               20.7  Annecy  
+2                       5.1                4.8  Annecy  
+3                       6.3               12.5  Annecy  
+4                       4.1                5.4  Annecy  
+5                       2.0               16.2  Annecy  
+6                       4.1               11.7  Annecy  ",74.71428571428571
+15,Grenoble,80348,True,45.1875602,5.7357819,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            81                      23.2   
+1  2025-10-23            80                      17.8   
+2  2025-10-24            80                      11.7   
+3  2025-10-25            80                      11.9   
+4  2025-10-26            80                       7.7   
+5  2025-10-27            61                       7.0   
+6  2025-10-28            61                      12.4   
 
-   apparent_temperature_min  precipitation_sum  
-0                      23.0                0.0  
-1                      20.3                0.0  
-2                      18.1                5.1  
-3                      20.9               37.6  
-4                      19.3                6.3  
-5                      16.1                0.0  
-6                      13.2                0.0  ",39.714285714285715
-16,Lyon,120965,45.7578137,4.8320114,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      30.5   
-1  2025-08-18             0                      31.5   
-2  2025-08-19            95                      29.1   
-3  2025-08-20            95                      24.1   
-4  2025-08-21            95                      22.3   
-5  2025-08-22             2                      21.7   
-6  2025-08-23             3                      22.5   
+   apparent_temperature_min  precipitation_sum       poi  
+0                      14.2               12.5  Grenoble  
+1                      10.7               16.2  Grenoble  
+2                       7.9                2.8  Grenoble  
+3                       7.1                7.6  Grenoble  
+4                       4.2                2.7  Grenoble  
+5                       3.4               12.3  Grenoble  
+6                       6.9                3.9  Grenoble  ",74.71428571428571
+16,Lyon,120965,True,45.7578137,4.8320114,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      19.7   
+1  2025-10-23            80                      16.6   
+2  2025-10-24            80                      11.9   
+3  2025-10-25            61                      12.3   
+4  2025-10-26             3                       7.6   
+5  2025-10-27            80                       8.9   
+6  2025-10-28            61                      12.0   
 
-   apparent_temperature_min  precipitation_sum  
-0                      21.9                0.0  
-1                      19.4                0.0  
-2                      21.3                8.3  
-3                      18.7               20.8  
-4                      18.9               22.2  
-5                      15.6                0.0  
-6                      13.9                0.0  ",41.42857142857143
-17,Gorges du Verdon,7193513219,43.7496562,6.3285616,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             2                      30.9   
-1  2025-08-18             3                      27.7   
-2  2025-08-19            95                      24.1   
-3  2025-08-20            80                      20.9   
-4  2025-08-21             3                      19.4   
-5  2025-08-22             3                      26.7   
-6  2025-08-23            45                      25.3   
+   apparent_temperature_min  precipitation_sum   poi  
+0                      14.4               11.3  Lyon  
+1                      10.0                5.1  Lyon  
+2                       7.4                1.2  Lyon  
+3                       7.3                0.7  Lyon  
+4                       5.5                1.8  Lyon  
+5                       3.6               14.4  Lyon  
+6                       7.8                0.3  Lyon  ",63.57142857142857
+17,Gorges du Verdon,7193513219,True,43.7496562,6.3285616,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      14.4   
+1  2025-10-23            80                      13.6   
+2  2025-10-24             3                       4.6   
+3  2025-10-25             3                       6.2   
+4  2025-10-26             3                       3.8   
+5  2025-10-27             1                       3.4   
+6  2025-10-28             3                       9.7   
 
-   apparent_temperature_min  precipitation_sum  
-0                      20.7                0.0  
-1                      19.5                0.0  
-2                      17.8                8.8  
-3                      16.7                6.6  
-4                      14.9                0.6  
-5                      15.9                0.0  
-6                      15.0                0.0  ",33.0
-18,Bormes les Mimosas,1118915,43.1506968,6.3419285,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      33.5   
-1  2025-08-18             3                      32.5   
-2  2025-08-19            51                      33.3   
-3  2025-08-20             3                      31.2   
-4  2025-08-21            80                      28.8   
-5  2025-08-22             3                      30.3   
-6  2025-08-23             3                      28.4   
+   apparent_temperature_min  precipitation_sum               poi  
+0                      11.1                2.2  Gorges du Verdon  
+1                       0.4                4.4  Gorges du Verdon  
+2                      -1.0                0.0  Gorges du Verdon  
+3                       3.4                0.0  Gorges du Verdon  
+4                      -1.2                0.0  Gorges du Verdon  
+5                      -1.8                0.0  Gorges du Verdon  
+6                       2.8                0.0  Gorges du Verdon  ",24.714285714285715
+18,Bormes les Mimosas,1118915,True,43.1506968,6.3419285,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            61                      22.9   
+1  2025-10-23             3                      21.4   
+2  2025-10-24             3                      12.5   
+3  2025-10-25            51                      16.6   
+4  2025-10-26             3                      12.1   
+5  2025-10-27             3                       7.6   
+6  2025-10-28             3                      11.5   
 
-   apparent_temperature_min  precipitation_sum  
-0                      27.1                0.0  
-1                      27.7                0.0  
-2                      24.9                0.7  
-3                      26.9                0.0  
-4                      17.3                3.3  
-5                      16.8                0.0  
-6                      19.5                0.0  ",20.428571428571427
-19,Cassis,76425,43.2140359,5.5396318,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      34.3   
-1  2025-08-18             3                      34.4   
-2  2025-08-19            51                      33.4   
-3  2025-08-20            51                      32.7   
-4  2025-08-21             3                      25.3   
-5  2025-08-22             3                      28.4   
-6  2025-08-23             3                      30.2   
+   apparent_temperature_min  precipitation_sum                 poi  
+0                      14.7                3.6  Bormes les Mimosas  
+1                       9.9                0.0  Bormes les Mimosas  
+2                       8.0                0.0  Bormes les Mimosas  
+3                       8.8                0.1  Bormes les Mimosas  
+4                       2.2                0.0  Bormes les Mimosas  
+5                       0.8                0.0  Bormes les Mimosas  
+6                       7.4                0.0  Bormes les Mimosas  ",18.142857142857142
+19,Cassis,76425,True,43.2140359,5.5396318,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            53                      23.1   
+1  2025-10-23             3                      23.5   
+2  2025-10-24             3                      14.9   
+3  2025-10-25            51                      15.7   
+4  2025-10-26             3                      11.6   
+5  2025-10-27             1                      13.0   
+6  2025-10-28             3                      13.0   
 
-   apparent_temperature_min  precipitation_sum  
-0                      26.4                0.0  
-1                      26.5                0.0  
-2                      28.3                0.2  
-3                      22.7                0.9  
-4                      21.1                0.3  
-5                      20.3                0.0  
-6                      22.4                0.0  ",16.285714285714285
-20,Marseille,76469,43.2961743,5.3699525,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      33.3   
-1  2025-08-18             3                      33.8   
-2  2025-08-19            51                      33.4   
-3  2025-08-20            51                      32.7   
-4  2025-08-21             3                      25.3   
-5  2025-08-22             3                      26.8   
-6  2025-08-23             3                      29.7   
+   apparent_temperature_min  precipitation_sum     poi  
+0                      17.2                1.1  Cassis  
+1                      11.1                0.0  Cassis  
+2                      10.0                0.0  Cassis  
+3                      10.0                0.4  Cassis  
+4                       6.0                0.0  Cassis  
+5                       5.7                0.0  Cassis  
+6                      10.8                0.0  Cassis  ",16.714285714285715
+20,Marseille,76469,True,43.2961743,5.3699525,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            63                      22.6   
+1  2025-10-23             3                      23.1   
+2  2025-10-24             3                      15.1   
+3  2025-10-25            51                      15.7   
+4  2025-10-26             3                      11.6   
+5  2025-10-27             2                      12.8   
+6  2025-10-28             3                      13.1   
 
-   apparent_temperature_min  precipitation_sum  
-0                      26.1                0.0  
-1                      25.6                0.0  
-2                      28.3                0.2  
-3                      22.7                0.9  
-4                      20.2                0.0  
-5                      18.5                0.0  
-6                      19.7                0.0  ",16.285714285714285
-21,Aix en Provence,70279,43.5298424,5.4474738,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      36.6   
-1  2025-08-18             2                      36.1   
-2  2025-08-19            81                      30.5   
-3  2025-08-20            95                      25.9   
-4  2025-08-21             3                      21.6   
-5  2025-08-22             3                      27.2   
-6  2025-08-23             3                      30.0   
+   apparent_temperature_min  precipitation_sum        poi  
+0                      17.6                2.7  Marseille  
+1                      10.4                0.0  Marseille  
+2                       9.9                0.0  Marseille  
+3                      10.1                0.4  Marseille  
+4                       6.1                0.0  Marseille  
+5                       5.5                0.0  Marseille  
+6                       9.9                0.0  Marseille  ",18.285714285714285
+21,Aix en Provence,70279,True,43.5298424,5.4474738,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      20.0   
+1  2025-10-23            80                      18.2   
+2  2025-10-24             3                      12.6   
+3  2025-10-25             3                      11.7   
+4  2025-10-26             3                       8.8   
+5  2025-10-27             2                      10.9   
+6  2025-10-28             3                      11.0   
 
-   apparent_temperature_min  precipitation_sum  
-0                      18.8                0.0  
-1                      21.0                0.0  
-2                      23.0                5.2  
-3                      21.6               13.8  
-4                      16.8                0.0  
-5                      17.5                0.0  
-6                      18.3                0.0  ",26.714285714285715
-22,Avignon,102478,43.9492493,4.8059012,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      30.6   
-1  2025-08-18             1                      36.9   
-2  2025-08-19            95                      29.8   
-3  2025-08-20            95                      25.4   
-4  2025-08-21             3                      24.7   
-5  2025-08-22             3                      23.9   
-6  2025-08-23             3                      26.5   
+   apparent_temperature_min  precipitation_sum              poi  
+0                      15.9                2.8  Aix en Provence  
+1                       6.8                4.1  Aix en Provence  
+2                       5.5                0.0  Aix en Provence  
+3                       8.6                0.0  Aix en Provence  
+4                       3.8                0.0  Aix en Provence  
+5                       1.2                0.0  Aix en Provence  
+6                       8.0                0.0  Aix en Provence  ",24.857142857142858
+22,Avignon,102478,True,43.9492493,4.8059012,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      21.4   
+1  2025-10-23            96                      19.9   
+2  2025-10-24             3                      15.2   
+3  2025-10-25            45                      15.0   
+4  2025-10-26             3                      10.5   
+5  2025-10-27             2                      11.7   
+6  2025-10-28             2                      14.8   
 
-   apparent_temperature_min  precipitation_sum  
-0                      19.6                0.0  
-1                      19.3                0.0  
-2                      24.0                6.6  
-3                      20.3               28.3  
-4                      19.0                0.0  
-5                      17.1                0.0  
-6                      16.2                0.0  ",28.571428571428573
-23,Uzes,380050,44.0121279,4.4196718,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      31.6   
-1  2025-08-18             1                      35.0   
-2  2025-08-19            96                      28.9   
-3  2025-08-20            95                      26.4   
-4  2025-08-21            45                      24.1   
-5  2025-08-22             2                      27.0   
-6  2025-08-23             3                      28.7   
+   apparent_temperature_min  precipitation_sum      poi  
+0                      15.6               15.3  Avignon  
+1                       9.9               13.8  Avignon  
+2                       7.6                0.0  Avignon  
+3                       8.1                0.0  Avignon  
+4                       5.6                0.0  Avignon  
+5                       4.2                0.0  Avignon  
+6                       4.7                0.0  Avignon  ",33.0
+23,Uzes,380050,True,44.0121279,4.4196718,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      20.8   
+1  2025-10-23            80                      18.1   
+2  2025-10-24             3                      14.3   
+3  2025-10-25             3                      12.9   
+4  2025-10-26             3                       9.5   
+5  2025-10-27             3                      13.5   
+6  2025-10-28            45                      15.7   
 
-   apparent_temperature_min  precipitation_sum  
-0                      20.3                0.0  
-1                      20.2                0.0  
-2                      25.0               17.3  
-3                      20.8               22.9  
-4                      17.6                0.0  
-5                      16.6                0.0  
-6                      13.5                0.0  ",34.57142857142857
-24,Nimes,378685,43.8374249,4.3600687,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      34.2   
-1  2025-08-18             3                      37.1   
-2  2025-08-19            95                      29.2   
-3  2025-08-20            95                      27.0   
-4  2025-08-21             3                      24.1   
-5  2025-08-22             1                      26.9   
-6  2025-08-23             3                      28.6   
+   apparent_temperature_min  precipitation_sum   poi  
+0                      15.6               15.5  Uzes  
+1                       8.6                8.4  Uzes  
+2                       5.8                0.0  Uzes  
+3                       8.0                0.0  Uzes  
+4                       4.7                0.0  Uzes  
+5                       3.2                0.0  Uzes  
+6                       5.8                0.0  Uzes  ",31.0
+24,Nimes,378685,True,43.8374249,4.3600687,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      21.3   
+1  2025-10-23            80                      18.9   
+2  2025-10-24             3                      14.9   
+3  2025-10-25             3                      14.3   
+4  2025-10-26             3                      10.5   
+5  2025-10-27             3                      14.0   
+6  2025-10-28             2                      16.1   
 
-   apparent_temperature_min  precipitation_sum  
-0                      21.9                0.0  
-1                      22.0                0.0  
-2                      24.2               36.2  
-3                      21.7               25.0  
-4                      18.9                0.0  
-5                      17.8                0.0  
-6                      15.9                0.0  ",28.571428571428573
-25,Aigues Mortes,272287,43.5661521,4.19154,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      36.4   
-1  2025-08-18             3                      36.9   
-2  2025-08-19            96                      30.5   
-3  2025-08-20            95                      28.4   
-4  2025-08-21             3                      24.9   
-5  2025-08-22             3                      28.6   
-6  2025-08-23             3                      30.8   
+   apparent_temperature_min  precipitation_sum    poi  
+0                      16.3                8.7  Nimes  
+1                      10.3                7.2  Nimes  
+2                       8.4                0.0  Nimes  
+3                       8.8                0.0  Nimes  
+4                       6.2                0.0  Nimes  
+5                       4.9                0.0  Nimes  
+6                       7.6                0.0  Nimes  ",24.857142857142858
+25,Aigues Mortes,272287,True,43.5661521,4.19154,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            80                      22.0   
+1  2025-10-23            80                      20.3   
+2  2025-10-24             3                      14.6   
+3  2025-10-25             3                      14.0   
+4  2025-10-26             3                      11.8   
+5  2025-10-27             3                      13.4   
+6  2025-10-28             3                      16.5   
 
-   apparent_temperature_min  precipitation_sum  
-0                      23.5                0.0  
-1                      23.1                0.0  
-2                      25.9               47.6  
-3                      23.2               21.0  
-4                      20.3                0.0  
-5                      18.1                0.0  
-6                      16.7                0.0  ",29.0
-26,Saintes Maries de la mer,414459,43.4515922,4.4277202,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      32.5   
-1  2025-08-18             3                      31.8   
-2  2025-08-19            51                      32.2   
-3  2025-08-20            81                      30.1   
-4  2025-08-21             3                      24.9   
-5  2025-08-22             3                      28.6   
-6  2025-08-23             3                      30.8   
+   apparent_temperature_min  precipitation_sum            poi  
+0                      18.0                0.8  Aigues Mortes  
+1                       9.9                6.0  Aigues Mortes  
+2                       9.1                0.0  Aigues Mortes  
+3                      10.8                0.0  Aigues Mortes  
+4                       7.6                0.0  Aigues Mortes  
+5                       6.4                0.0  Aigues Mortes  
+6                      10.0                0.0  Aigues Mortes  ",25.0
+26,Saintes Maries de la mer,414459,True,43.4515922,4.4277202,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            51                      20.8   
+1  2025-10-23            51                      21.2   
+2  2025-10-24             3                      15.3   
+3  2025-10-25            51                      15.7   
+4  2025-10-26             3                      12.1   
+5  2025-10-27             3                      13.4   
+6  2025-10-28             3                      16.5   
 
-   apparent_temperature_min  precipitation_sum  
-0                      23.6                0.0  
-1                      24.2                0.0  
-2                      29.5                0.2  
-3                      23.4               43.6  
-4                      19.6                0.0  
-5                      18.1                0.0  
-6                      16.8                0.0  ",20.571428571428573
-27,Collioure,18409,42.52505,3.0831554,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      36.6   
-1  2025-08-18             3                      32.8   
-2  2025-08-19            51                      32.3   
-3  2025-08-20            51                      27.8   
-4  2025-08-21             3                      21.6   
-5  2025-08-22             0                      26.5   
-6  2025-08-23             2                      32.1   
+   apparent_temperature_min  precipitation_sum                       poi  
+0                      17.9                0.1  Saintes Maries de la mer  
+1                       8.6                0.5  Saintes Maries de la mer  
+2                       9.3                0.0  Saintes Maries de la mer  
+3                      11.6                0.2  Saintes Maries de la mer  
+4                       7.1                0.0  Saintes Maries de la mer  
+5                       5.6                0.0  Saintes Maries de la mer  
+6                      10.0                0.0  Saintes Maries de la mer  ",23.571428571428573
+27,Collioure,18409,True,42.52505,3.0831554,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22             3                      25.1   
+1  2025-10-23            53                      18.9   
+2  2025-10-24             3                      16.5   
+3  2025-10-25            61                      18.1   
+4  2025-10-26            61                      13.8   
+5  2025-10-27             3                      15.1   
+6  2025-10-28             3                      17.0   
 
-   apparent_temperature_min  precipitation_sum  
-0                      30.9                0.0  
-1                      27.3                0.0  
-2                      26.2                0.2  
-3                      19.6                0.4  
-4                      17.5                0.3  
-5                      20.2                0.0  
-6                      16.8                0.0  ",15.714285714285714
-28,Carcassonne,37774,43.2130358,2.3491069,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      35.1   
-1  2025-08-18             3                      35.9   
-2  2025-08-19            51                      32.1   
-3  2025-08-20            80                      25.0   
-4  2025-08-21            61                      21.0   
-5  2025-08-22             2                      25.8   
-6  2025-08-23             3                      28.8   
+   apparent_temperature_min  precipitation_sum        poi  
+0                      17.1                0.0  Collioure  
+1                       9.8                0.5  Collioure  
+2                       9.9                0.0  Collioure  
+3                      12.5                3.2  Collioure  
+4                       5.3               13.5  Collioure  
+5                       6.4                0.0  Collioure  
+6                      11.5                0.0  Collioure  ",26.714285714285715
+28,Carcassonne,37774,True,43.2130358,2.3491069,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            53                      23.8   
+1  2025-10-23            63                      16.7   
+2  2025-10-24            51                      16.0   
+3  2025-10-25            51                      12.5   
+4  2025-10-26            51                       9.8   
+5  2025-10-27             3                      11.4   
+6  2025-10-28             3                      15.3   
 
-   apparent_temperature_min  precipitation_sum  
-0                      24.9                0.0  
-1                      24.0                0.0  
-2                      23.1                0.4  
-3                      19.2               14.7  
-4                      16.1                0.3  
-5                      17.8                0.0  
-6                      14.1                0.0  ",28.571428571428573
-29,Ariege,7439,42.9455368,1.4065544,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             0                      27.0   
-1  2025-08-18            55                      26.1   
-2  2025-08-19            80                      22.3   
-3  2025-08-20            63                      16.8   
-4  2025-08-21            95                      16.2   
-5  2025-08-22             3                      19.9   
-6  2025-08-23             2                      23.2   
+   apparent_temperature_min  precipitation_sum          poi  
+0                      14.6                1.7  Carcassonne  
+1                       8.5                8.2  Carcassonne  
+2                       8.9                0.4  Carcassonne  
+3                       9.6                0.6  Carcassonne  
+4                       5.1                0.6  Carcassonne  
+5                       5.9                0.3  Carcassonne  
+6                      10.2                0.0  Carcassonne  ",39.285714285714285
+29,Ariege,7439,True,42.9455368,1.4065544,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            61                      14.6   
+1  2025-10-23            63                      11.0   
+2  2025-10-24            55                       6.8   
+3  2025-10-25            63                       6.4   
+4  2025-10-26            73                       3.4   
+5  2025-10-27            80                       8.2   
+6  2025-10-28            45                      11.7   
 
-   apparent_temperature_min  precipitation_sum  
-0                      18.8                0.0  
-1                      17.1                1.4  
-2                      16.4                6.5  
-3                      11.4               26.3  
-4                       9.9                9.3  
-5                      13.0                0.0  
-6                      11.4                0.0  ",42.57142857142857
-30,Toulouse,35738,43.6044622,1.4442469,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             3                      38.5   
-1  2025-08-18             3                      35.1   
-2  2025-08-19            95                      24.6   
-3  2025-08-20            95                      23.5   
-4  2025-08-21            80                      23.4   
-5  2025-08-22             3                      27.2   
-6  2025-08-23             2                      29.2   
+   apparent_temperature_min  precipitation_sum     poi  
+0                       7.9                3.3  Ariege  
+1                      -1.2               13.3  Ariege  
+2                      -0.6                5.0  Ariege  
+3                       3.4                9.0  Ariege  
+4                      -1.5               24.4  Ariege  
+5                       3.0                3.0  Ariege  
+6                       4.6                0.3  Ariege  ",62.857142857142854
+30,Toulouse,35738,True,43.6044638,1.4442433,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            95                      23.2   
+1  2025-10-23            63                      18.5   
+2  2025-10-24            61                      14.2   
+3  2025-10-25            80                      13.2   
+4  2025-10-26            80                      10.2   
+5  2025-10-27             3                      12.7   
+6  2025-10-28             3                      16.4   
 
-   apparent_temperature_min  precipitation_sum  
-0                      23.0                0.0  
-1                      23.5                0.0  
-2                      21.1                3.6  
-3                      19.0                5.9  
-4                      17.3                3.6  
-5                      17.9                0.0  
-6                      13.3                0.0  ",40.142857142857146
-31,Montauban,137735,44.0175835,1.3549991,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             3                      38.1   
-1  2025-08-18            80                      35.5   
-2  2025-08-19            95                      24.6   
-3  2025-08-20            95                      24.1   
-4  2025-08-21            80                      22.4   
-5  2025-08-22             2                      27.0   
-6  2025-08-23             3                      29.5   
+   apparent_temperature_min  precipitation_sum       poi  
+0                      15.6               11.1  Toulouse  
+1                      10.8               16.8  Toulouse  
+2                      11.0                0.3  Toulouse  
+3                      10.2                0.9  Toulouse  
+4                       7.7                1.2  Toulouse  
+5                       7.8                0.9  Toulouse  
+6                      11.3                0.0  Toulouse  ",55.0
+31,Montauban,137735,True,44.0175835,1.3549991,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            95                      22.1   
+1  2025-10-23            63                      17.9   
+2  2025-10-24            80                      13.4   
+3  2025-10-25            80                      13.4   
+4  2025-10-26             3                       9.9   
+5  2025-10-27            61                      12.7   
+6  2025-10-28            45                      15.9   
 
-   apparent_temperature_min  precipitation_sum  
-0                      22.4                0.0  
-1                      22.3                0.0  
-2                      21.0                4.1  
-3                      18.6                7.4  
-4                      17.6                3.0  
-5                      17.8                0.0  
-6                      11.6                0.0  ",51.142857142857146
-32,Biarritz,166717,43.4832523,-1.5592776,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             3                      32.5   
-1  2025-08-18             3                      26.9   
-2  2025-08-19            80                      25.1   
-3  2025-08-20            80                      23.6   
-4  2025-08-21            80                      22.4   
-5  2025-08-22             3                      24.7   
-6  2025-08-23             2                      25.8   
+   apparent_temperature_min  precipitation_sum        poi  
+0                      15.6               20.4  Montauban  
+1                      10.2               13.7  Montauban  
+2                      10.4                0.3  Montauban  
+3                      10.2                1.1  Montauban  
+4                       7.4                1.8  Montauban  
+5                       7.7                0.9  Montauban  
+6                      10.6                0.0  Montauban  ",61.0
+32,Biarritz,166717,True,43.4832523,-1.5592776,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            63                      24.9   
+1  2025-10-23            63                      21.1   
+2  2025-10-24            61                      15.9   
+3  2025-10-25            55                      15.6   
+4  2025-10-26            80                      13.3   
+5  2025-10-27            80                      15.5   
+6  2025-10-28            80                      17.4   
 
-   apparent_temperature_min  precipitation_sum  
-0                      24.8                0.0  
-1                      23.6                0.0  
-2                      21.4                5.4  
-3                      20.2               15.4  
-4                      20.0               17.4  
-5                      21.9                0.0  
-6                      22.5                0.0  ",35.857142857142854
-33,Bayonne,166713,43.4945144,-1.4736657,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             3                      37.9   
-1  2025-08-18             3                      27.3   
-2  2025-08-19            80                      25.2   
-3  2025-08-20            80                      23.7   
-4  2025-08-21            80                      22.5   
-5  2025-08-22             3                      24.8   
-6  2025-08-23             2                      25.9   
+   apparent_temperature_min  precipitation_sum       poi  
+0                      18.7                7.0  Biarritz  
+1                       6.8               13.3  Biarritz  
+2                      11.1                5.4  Biarritz  
+3                      11.9                4.5  Biarritz  
+4                       8.8               13.2  Biarritz  
+5                      11.8                9.6  Biarritz  
+6                      15.6                4.2  Biarritz  ",68.85714285714286
+33,Bayonne,166713,True,43.4945144,-1.4736657,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            65                      25.9   
+1  2025-10-23            63                      21.9   
+2  2025-10-24            63                      16.6   
+3  2025-10-25            55                      15.7   
+4  2025-10-26            80                      13.4   
+5  2025-10-27            80                      15.6   
+6  2025-10-28            80                      17.5   
 
-   apparent_temperature_min  precipitation_sum  
-0                      25.6                0.0  
-1                      24.1                0.0  
-2                      21.5                5.4  
-3                      20.3               15.4  
-4                      20.1               17.4  
-5                      22.0                0.0  
-6                      22.7                0.0  ",35.857142857142854
-34,La Rochelle,117858,46.159732,-1.1515951,True,"         time  weather_code  apparent_temperature_max  \
-0  2025-08-17             3                      35.4   
-1  2025-08-18             3                      27.4   
-2  2025-08-19             3                      23.0   
-3  2025-08-20             3                      23.7   
-4  2025-08-21             3                      22.6   
-5  2025-08-22             3                      24.8   
-6  2025-08-23             1                      24.2   
+   apparent_temperature_min  precipitation_sum      poi  
+0                      18.2               10.0  Bayonne  
+1                      10.6               17.4  Bayonne  
+2                      12.2               11.8  Bayonne  
+3                      12.0                4.5  Bayonne  
+4                       8.9               13.2  Bayonne  
+5                      11.9                9.6  Bayonne  
+6                      15.8                4.2  Bayonne  ",69.42857142857143
+34,La Rochelle,117858,True,46.159732,-1.1515951,"         time  weather_code  apparent_temperature_max  \
+0  2025-10-22            63                      18.0   
+1  2025-10-23            63                      15.3   
+2  2025-10-24            61                      12.7   
+3  2025-10-25            53                      11.4   
+4  2025-10-26             3                       9.1   
+5  2025-10-27            80                      12.6   
+6  2025-10-28            80                      14.7   
 
-   apparent_temperature_min  precipitation_sum  
-0                      21.7                0.0  
-1                      20.9                0.0  
-2                      19.3                0.0  
-3                      19.7                0.0  
-4                      17.2                0.0  
-5                      16.7                0.0  
-6                      16.1                0.0  ",2.7142857142857144
+   apparent_temperature_min  precipitation_sum          poi  
+0                      14.1               18.5  La Rochelle  
+1                       4.7               19.1  La Rochelle  
+2                       8.8               10.3  La Rochelle  
+3                       8.8                4.2  La Rochelle  
+4                       5.6                0.0  La Rochelle  
+5                       8.8                1.8  La Rochelle  
+6                      12.0                1.5  La Rochelle  ",57.57142857142857
