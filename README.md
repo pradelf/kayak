@@ -62,9 +62,11 @@ Pour un projet comme Kayak, le déroulé pourrait ressembler à ceci :
 * Scrapy
 * XPath (requêtage XML)
 * AWS S3
-* Boto 3
+* AWS Boto 3
+* AWS CDK
 * Pandas
 * Postgresql
+* Neon pour les bases postgresql
 
 🔄 Quels processus mettre en place :
 
@@ -72,6 +74,8 @@ Pour un projet comme Kayak, le déroulé pourrait ressembler à ceci :
 * analyse et mise en place de la consommation du web service : open-meteo
 * structuration de données et envoie dans un compartiment (Bucket) AWS S3
 * Création d'une base de données et insertion de données
+* Création d'une application pour consommer notre projet
+* Création d'un environnement serveless AWS pour limiter les coûts avec CDK.
 
 ❓ Quelles questions se pose ?
 
@@ -90,3 +94,77 @@ Pour un projet comme Kayak, le déroulé pourrait ressembler à ceci :
 * codage python du scrapping avec Scrapy
 * base de données avec des données sur neondb
 * fichier des données obtenues.
+
+## CRÉATION DE L'ENVIRONNEMENT CLOUD SUR AWS AVEC CDK
+
+CDK  est une librairie dont nous avons ici choisi la version en Python pour créer une infrstructure Cloud en la décriavnt comme du code (IaC : Infrastructure as Code spécifique à AWS).
+
+Nous créons le code de base (boilerplate) en utilisant la commande d'initialisation de projet en nous plçant dans le repertoire App que nous allons dédié à notre application Web.
+
+```bash
+cd App
+cdk init app --language=python
+```
+
+Nous sommes accueilli après le lancement de la commande par le message suivant :
+___
+
+### Welcome to your CDK Python project
+
+This is a blank project for CDK development with Python.
+
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+This project is set up like a standard Python project.  The initialization
+process also creates a virtualenv within this project, stored under the `.venv`
+directory.  To create the virtualenv it assumes that there is a `python3`
+(or `python` for Windows) executable in your path with access to the `venv`
+package. If for any reason the automatic creation of the virtualenv fails,
+you can create the virtualenv manually.
+
+To manually create a virtualenv on MacOS and Linux:
+
+```
+python3 -m venv .venv
+```
+
+After the init process completes and the virtualenv is created, you can use the following
+step to activate your virtualenv.
+
+```
+source .venv/bin/activate
+```
+
+If you are a Windows platform, you would activate the virtualenv like this:
+
+```
+% .venv\Scripts\activate.bat
+```
+
+Once the virtualenv is activated, you can install the required dependencies.
+
+```
+pip install -r requirements.txt
+```
+
+At this point you can now synthesize the CloudFormation template for this code.
+
+```
+cdk synth
+```
+
+To add additional dependencies, for example other CDK libraries, just add
+them to your `setup.py` file and rerun the `pip install -r requirements.txt`
+command.
+
+#### Useful commands
+
+* `cdk ls`          list all stacks in the app
+* `cdk synth`       emits the synthesized CloudFormation template
+* `cdk deploy`      deploy this stack to your default AWS account/region
+* `cdk diff`        compare deployed stack with current state
+* `cdk docs`        open CDK documentation
+
+Enjoy!
+___
+La version web du projet est consultable à l'url : <https://dd0kljvyoc0fk.cloudfront.net>
