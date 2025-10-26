@@ -199,9 +199,4 @@ with col2:
     st.text(f"Site ayant la meilleure météo : {poi}")
     next_pois = df_hotel[df_hotel["ville"] == poi]
     st.text("liste des hôtels depuis bookiing pour ce site.")
-    st.markdown(" **Hotel**      **description**")
-    # st.markdown(next_pois[["nom", "url", "description"]])
-    next_pois[["nom", "url", "description"]].apply(
-        lambda ele: st.markdown(f"[{ele.nom}]({ele.url})      {ele.description} ")
-    )
-    # st.text(next_pois[["nom", "description"]])
+    st.dataframe(next_pois[["nom", "url", "description"]])
