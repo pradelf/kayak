@@ -195,13 +195,13 @@ with col2:
         "Ci-dessous l'indicateur météo nice des 7 prochains jours pour les 35 sites d'intérêt touristique. "
     )
     st.plotly_chart(fig, use_container_width=True)
-    st.text("Site ayant la meilleure météo :")
-    st.text(df_pois.iloc[df_pois["nice"].idxmax()])
     poi = df_pois[["nom"]].iloc[df_pois["nice"].idxmax()].nom
-    st.text(f"Pour POI : {poi}")
+    st.text(f"Site ayant la meilleure météo : {poi}")
     next_pois = df_hotel[df_hotel["ville"] == poi]
-    st.text(" Hotel \t description")
-    next_pois[["nom", "description"]].apply(
-        lambda ele: st.markdown(f"[**{ele.nom}**]({ele.url}) \t {ele.description[0]}")
+    st.text("liste des hôtels depuis bookiing pour ce site.")
+    st.markdown(" **Hotel**      **description**")
+    # st.markdown(next_pois[["nom", "url", "description"]])
+    next_pois[["nom", "url", "description"]].apply(
+        lambda ele: st.markdown(f"[{ele.nom}]({ele.url})      {ele.description} ")
     )
     # st.text(next_pois[["nom", "description"]])
