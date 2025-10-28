@@ -4,7 +4,9 @@ Bloc1 : Construction et alimentation d'une infrastructure de gestion de données
 
 ![alt text](Media/Kayak-FPr.png)
 
-Il s'agit du projet public sur GitHub : [https://github.com/pradelf/kayak](https://github.com/pradelf/kayak)
+Il s'agit du projet public sur GitHub : [https://github.com/pradelf/kayak](https://github.com/pradelf/kayak).
+
+La version web du projet est consultable à l'url : <https://dd0kljvyoc0fk.cloudfront.net>
 
 ## Sujet du projet d'évaluation
 
@@ -108,7 +110,7 @@ cd App
 cdk init app --language=python
 ```
 
-Nous sommes accueilli après le lancement de la commande par le message suivant :
+Nous sommes accueilli après le lancement de la commande par le message suivant  qui explique l'usage de CDK pour AWS.
 ___
 
 ### Welcome to your CDK Python project
