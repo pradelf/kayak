@@ -14,19 +14,6 @@ import plotly.express as px
 load_dotenv()
 
 
-# Openweathermap API
-key = os.getenv("APIKEY")
-# RDS Connection
-DBHOST = os.getenv("DBHOST")
-DBUSER = os.getenv("DBUSER")
-DBPASS = os.getenv("DBPASS")
-DBNAME = os.getenv("DBNAME")
-
-# S3 credentials
-AWS_S3_BUCKET = os.getenv("AWS_S3_BUCKET")
-AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
-AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
-
 logging.basicConfig(
     filename="kayak.log",
     format="%(asctime)s-%(levelname)s-%(message)s",
