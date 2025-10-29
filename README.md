@@ -8,7 +8,11 @@ Il s'agit du projet public sur GitHub : [https://github.com/pradelf/kayak](https
 
 La version web du projet est consultable à l'url : <https://dd0kljvyoc0fk.cloudfront.net>
 
-Le stockage S3 des données est dans le "Bucket" [https://francis-pradel-jedha-projects.s3.eu-west-3.amazonaws.com/att/francis-pradel-jedha-projects/kayak](https://francis-pradel-jedha-projects.s3.eu-west-3.amazonaws.com/kayak/)](https://francis-pradel-jedha-projects.s3.eu-west-3.amazonaws.com/kayak/)
+Le stockage S3 des données est dans le "Bucket" [https://francis-pradel-jedha-projects.s3.eu-west-3.amazonaws.com/kayak/](https://francis-pradel-jedha-projects.s3.eu-west-3.amazonaws.com/kayak/).
+
+Nous y retrouvons les deux fichiers constituants notre datalake: 
+- [kayak.csv](https://francis-pradel-jedha-projects.s3.eu-west-3.amazonaws.com/kayak/kayak.csv) : liste des lieux d'interêt,
+- [kayak.json](https://francis-pradel-jedha-projects.s3.eu-west-3.amazonaws.com/kayak/kayak.json) : liste des hôtels.
 
 ## Sujet du projet d'évaluation
 
