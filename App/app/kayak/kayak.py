@@ -157,7 +157,14 @@ fig = px.scatter_map(
     lon="longitude",
     color="nice",
     size="nice",
-    zoom=4,
+    hover_name="nom",
+    hover_data={
+        "nom": True,
+        "latitude": False,
+        "longitude": False,
+        "nice": True,
+    },
+    zoom=6,
     map_style="open-street-map",
     title="indice nice : Niveau de météo sur les 7 jours à venir sur les 35 jours.",
 )
@@ -185,5 +192,53 @@ with col2:
     poi = df_pois[["nom"]].iloc[df_pois["nice"].idxmax()].nom
     st.text(f"Site ayant la meilleure météo : {poi}")
     next_pois = df_hotel[df_hotel["ville"] == poi]
+
+    def latitude_extract(ele):
+        try:
+            latitude = float(ele.split(",")[0])
+            return latitude
+        except:
+            return 0.0
+
+    def longitude_extract(ele):
+        try:
+            latitude = float(ele.split(",")[1])
+            return latitude
+        except:
+            return 0.0
+
+    next_pois["latitude"] = next_pois["coordinates"].apply(latitude_extract)
+    next_pois["longitude"] = next_pois["coordinates"].apply(longitude_extract)
+    next_pois["latitude"]
+    next_pois["text"] = next_pois["ville"] + " nom : " + next_pois["nom"].astype(str)
+
+    import plotly.graph_objects as go
+
+    # create figure
+    fig1 = go.Figure()
+    fig1.add_trace(
+        go.Scattermap(
+            lon=next_pois["longitude"],
+            lat=next_pois["latitude"],
+            text=next_pois["text"],
+            mode="markers+text",
+            marker=dict(size=10, symbol="lodging"),
+        )
+    )
+    # Update and show figure
+    fig1.update_layout(
+        height=400,
+        hovermode="closest",
+        map=dict(
+            bearing=0, center=go.layout.map.Center(lat=45.75, lon=4.85), pitch=0, zoom=5
+        ),
+        annotations=[
+            dict(
+                text="Hôtels", showarrow=False, x=0, y=1.085, yref="paper", align="left"
+            )
+        ],
+    )
+
+    st.plotly_chart(fig1, use_container_width=True)
     st.text("liste des hôtels depuis bookiing pour ce site.")
     st.dataframe(next_pois[["nom", "url", "description"]])
