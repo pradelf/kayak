@@ -8,6 +8,8 @@ Il s'agit du projet public sur GitHub : [https://github.com/pradelf/kayak](https
 
 La version web du projet est consultable à l'url : <https://dd0kljvyoc0fk.cloudfront.net>
 
+Le stockage S3 des données est dans le "Bucket" [https://francis-pradel-jedha-projects.s3.eu-west-3.amazonaws.com/att/francis-pradel-jedha-projects/kayak](https://francis-pradel-jedha-projects.s3.eu-west-3.amazonaws.com/att/francis-pradel-jedha-projects/kayak)
+
 ## Sujet du projet d'évaluation
 
 L’équipe marketing de Kayak a besoin d’aide pour un nouveau projet. Après avoir mené une étude auprès des utilisateurs, l’équipe a découvert que 70 % des utilisateurs qui prévoient un voyage souhaitent obtenir plus d’informations sur leur destination.
