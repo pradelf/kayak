@@ -41,29 +41,29 @@ Puis pour chacun d'eux;  nous récupérons leur coordonnées GPS grâce à l'API
 
 For a project like Kayak, it might look something like this:
 
- [ ]  Use a geolocalisation API to get latitude and longitude for my list of cities (such as nominatim)
- [ ] Use a weather API to get weather information on my cities, thanks to the coordinates (such as open weather api)
- [ ] Use my weather information to select the 5 most attractive cities for a holiday
- [ ]Use Scrapy to scrape booking.com information on 25 information for each city
- [ ] Upload all my raw data to an S3 bucket using boto3
+ - [ ]  Use a geolocalisation API to get latitude and longitude for my list of cities (such as nominatim)
+ - [ ] Use a weather API to get weather information on my cities, thanks to the coordinates (such as open weather api)
+ - [ ] Use my weather information to select the 5 most attractive cities for a holiday
+ - [ ]Use Scrapy to scrape booking.com information on 25 information for each city
+ - [ ] Upload all my raw data to an S3 bucket using boto3
 Retrieve the data locally using boto3
- [ ] Clean and structure the data into a tabular format with python and pandas
- [ ] Upload my tabular data to an RDS with sqlalchemy
-Run a few SQL requests on my data using sqlalchemy
+ - [ ] Clean and structure the data into a tabular format with python and pandas
+ - [ ] Upload my tabular data to an RDS with sqlalchemy
+ - [ ] Run a few SQL requests on my data using sqlalchemy
 
 ## Processus envisagé pour le projet : Kayak
 
 Pour un projet comme Kayak, le déroulé pourrait ressembler à ceci :
 
- [ ] Utiliser l'API de géolocalisation Nominatim pour obtenir la latitude et la longitude de la liste de villes.
- [ ] Utiliser l'API météo pour récupérer les informations météorologiques des villes à partir de leurs coordonnées. J'ai choisi le service météo : open-meteo. Il est plus facile d'usage qu'OpenWeather sans obligation de création de compte.
- [ ] Utiliser ces données météo pour sélectionner les 5 villes les plus attractives pour des vacances.
- [ ] Utiliser Scrapy pour extraire les informations de booking.com sur 25 hôtels par ville.
- [ ] Téléverser toutes les données brutes dans un bucket S3 à l’aide de Boto3.
- [ ] Récupérer les données localement avec Boto3.
- [ ] Nettoyer et structurer les données en format tabulaire avec Python et Pandas.
- [ ] Téléverser les données tabulaires dans une base AWS RDS via SQLAlchemy.
- [ ] Exécuter quelques requêtes SQL sur ces données à l’aide de SQLAlchemy.
+ - [ ] Utiliser l'API de géolocalisation Nominatim pour obtenir la latitude et la longitude de la liste de villes.
+ - [ ] Utiliser l'API météo pour récupérer les informations météorologiques des villes à partir de leurs coordonnées. J'ai choisi le service météo : open-meteo. Il est plus facile d'usage qu'OpenWeather sans obligation de création de compte.
+ - [ ] Utiliser ces données météo pour sélectionner les 5 villes les plus attractives pour des vacances.
+ - [ ] Utiliser Scrapy pour extraire les informations de booking.com sur 25 hôtels par ville.
+ - [ ] Téléverser toutes les données brutes dans un bucket S3 à l’aide de Boto3.
+ - [ ] Récupérer les données localement avec Boto3.
+ - [ ] Nettoyer et structurer les données en format tabulaire avec Python et Pandas.
+ - [ ] Téléverser les données tabulaires dans une base AWS RDS via SQLAlchemy.
+ - [ ] Exécuter quelques requêtes SQL sur ces données à l’aide de SQLAlchemy.
 
 ## Objectifs concrets
 
