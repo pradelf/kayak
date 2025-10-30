@@ -77,9 +77,11 @@ Pour un projet comme Kayak, le déroulé pourrait ressembler à ceci :
 - AWS S3
 - AWS Boto 3
 - AWS CDK
+- AWS ECS
+- Docker
 - Pandas
-- Postgresql
-- Neon pour les bases postgresql
+- PostgreSQL
+- Neon pour les bases postgreSQL hébergées en Serverless
 
 🔄 Quels processus mettre en place :
 
@@ -113,6 +115,7 @@ Pour un projet comme Kayak, le déroulé pourrait ressembler à ceci :
 CDK  est une librairie dont nous avons ici choisi la version en Python pour créer une infrstructure Cloud en la décriavnt comme du code (IaC : Infrastructure as Code spécifique à AWS).
 
 Nous créons le code de base (boilerplate) en utilisant la commande d'initialisation de projet en nous plçant dans le repertoire App que nous allons dédié à notre application Web.
+...
 
 ```bash
 cd App
