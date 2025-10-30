@@ -189,7 +189,7 @@ with col2:
         "Ci-dessous l'indicateur météo nice des 7 prochains jours pour les 35 sites d'intérêt touristique. "
     )
     st.plotly_chart(fig, use_container_width=True)
-    top_poi = df_pois[["nom"]].iloc[df_pois["nice"].idxmin()]
+    top_poi = df_pois[["nom", "longitude", "latitude"]].iloc[df_pois["nice"].idxmin()]
     poi = top_poi.nom
     longitude_ville = top_poi.longitude
     latitude_ville = top_poi.latitude
