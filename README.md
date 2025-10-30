@@ -122,7 +122,7 @@ cd App
 cdk init app --language=python
 ```
 
-Nous sommes accueilli après le lancement de la commande par le message suivant  qui explique l'usage de CDK pour AWS.
+Nous sommes accueillis après le lancement de la commande par le message suivant qui explique l'usage de CDK pour AWS.
 ___
 
 ### Welcome to your CDK Python project
