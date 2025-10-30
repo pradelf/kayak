@@ -189,7 +189,10 @@ with col2:
         "Ci-dessous l'indicateur météo nice des 7 prochains jours pour les 35 sites d'intérêt touristique. "
     )
     st.plotly_chart(fig, use_container_width=True)
-    poi = df_pois[["nom"]].iloc[df_pois["nice"].idxmax()].nom
+    top_poi = df_pois[["nom"]].iloc[df_pois["nice"].idxmin()]
+    poi = top_poi.nom
+    longitude_ville = top_poi.longitude
+    latitude_ville = top_poi.latitude
     st.text(f"Site ayant la meilleure météo : {poi}")
     next_pois = df_hotel[df_hotel["ville"] == poi]
 
@@ -209,7 +212,6 @@ with col2:
 
     next_pois["latitude"] = next_pois["coordinates"].apply(latitude_extract)
     next_pois["longitude"] = next_pois["coordinates"].apply(longitude_extract)
-    next_pois["latitude"]
     next_pois["text"] = next_pois["ville"] + " nom : " + next_pois["nom"].astype(str)
 
     import plotly.graph_objects as go
@@ -227,10 +229,13 @@ with col2:
     )
     # Update and show figure
     fig1.update_layout(
-        height=400,
+        height=600,
         hovermode="closest",
         map=dict(
-            bearing=0, center=go.layout.map.Center(lat=45.75, lon=4.85), pitch=0, zoom=5
+            bearing=0,
+            center=go.layout.map.Center(lat=latitude_ville, lon=longitude_ville),
+            pitch=0,
+            zoom=6,
         ),
         annotations=[
             dict(
